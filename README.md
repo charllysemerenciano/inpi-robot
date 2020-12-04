@@ -9,6 +9,10 @@
 
 <h1 align="center">INPI Robot</h1>
 
+<h4 align="center"> 
+	🚧  Em construção...  🚧
+</h4>
+
 ## Sobre
 
 <p align="center">Robô python com objetivo de coletar dados de marcas registradas no INPI</p>
