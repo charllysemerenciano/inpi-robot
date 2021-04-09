@@ -8,11 +8,12 @@ USE inpi;
 
 create table tb_faixas
 (
-    Id        int        not null,
-    Inicio    int        not null,
-    Fim       int        null,
-    Status    varchar(1) not null,
-    Progresso int        not null
+    Id              int        not null,
+    Inicio          int        not null,
+    Fim             int        null,
+    Status          varchar(1) not null,
+    Progresso       int        not null,
+    DataAtualizacao datetime   null
 );
 
 create unique index tb_faixas_id_uindex
