@@ -33,7 +33,7 @@ create table tb_marca
     Situacao     varchar(100) not null,
     Apresentacao varchar(50)  not null,
     Natureza     varchar(50)  not null,
-    Foto         bool         not null
+    Foto         varchar(150) null
 );
 
 create unique index table_name_id_uindex
